@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   s.requirements << "jar 'org.elasticsearch:elasticsearch-cloud-aws', '2.3.0'"
 
   # Gem dependencies
+  s.add_runtime_dependency 'logstash-output-elasticsearch'
   s.add_runtime_dependency 'logstash', '>= 1.4.0', '< 2.0.0'
   s.add_runtime_dependency 'jar-dependencies', ['~> 0.0.6']
 
