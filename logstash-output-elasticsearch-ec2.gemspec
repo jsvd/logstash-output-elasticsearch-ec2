@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   # Gem dependencies
   s.add_runtime_dependency 'logstash-output-elasticsearch'
   s.add_runtime_dependency 'logstash', '>= 1.4.0', '< 2.0.0'
-  s.add_runtime_dependency 'jar-dependencies', ['~> 0.0.6']
+  s.add_runtime_dependency 'jar-dependencies'
 
 end
 
