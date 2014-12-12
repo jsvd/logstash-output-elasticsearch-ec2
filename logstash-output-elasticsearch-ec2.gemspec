@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.metadata = { "logstash_plugin" => "true", "logstash_group" => "output" }
 
   # Jar dependencies
-  s.requirements << "jar 'org.elasticsearch:elasticsearch-cloud-aws', '2.3.0'"
+  s.requirements << "jar 'org.elasticsearch:elasticsearch-cloud-aws', '2.4.1'"
 
   # Gem dependencies
   s.add_runtime_dependency 'logstash-output-elasticsearch'
